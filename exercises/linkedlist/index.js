@@ -23,7 +23,7 @@ class LinkedList {
         this.head = node;
         //same as :
         // this.head = new Node(data, this.head)
-    }
+    } 
 
    
 
