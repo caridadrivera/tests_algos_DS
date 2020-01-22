@@ -8,6 +8,14 @@
 //   anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 //   anagrams('Hi there', 'Bye there') --> False
 
-function anagrams(stringA, stringB) {}
+function anagrams(stringA, stringB) {
+    //count occurrences (only the charMAp)
+
+    const charMap = {}
+    for(let char of str){
+        charMap[char] = charMap[char] + 1 || 1
+    }
+
+}
 
 module.exports = anagrams;
