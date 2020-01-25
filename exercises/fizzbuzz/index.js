@@ -20,9 +20,7 @@ function fizzBuzz(n) {
             console.log("fizz")
         } elseif (i % 5 === 0) {
             console.log("buzz")
-        } else {
-            console.log(i)
-        }
+        
     }
 }
 
